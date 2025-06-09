@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Fashion-MNIST迁移学习实验结果摘要 (优化版)
 ====================================
 
@@ -89,3 +90,96 @@ Fashion-MNIST迁移学习实验结果摘要 (优化版)
   Ankle boot: 0.9340
 ------------------------------------
 
+=======
+Fashion-MNIST Transfer Learning Experiment Results
+==================================================
+
+Model: MobileNetV2
+Trainable layers: 0
+Trainable parameters: 12,810
+Test accuracy: 0.8582
+Training time: 1.82 minutes
+Training epochs: 5
+Best validation accuracy: 0.8586
+Best validation loss: 0.3909
+
+Per-class accuracies:
+  T-shirt/top: 0.8020
+  Trouser: 0.9760
+  Pullover: 0.7510
+  Dress: 0.8540
+  Coat: 0.7850
+  Sandal: 0.9540
+  Shirt: 0.6250
+  Sneaker: 0.9150
+  Bag: 0.9760
+  Ankle boot: 0.9440
+----------------------------------------
+
+Model: MobileNetV2
+Trainable layers: 5
+Trainable parameters: 424,970
+Test accuracy: 0.8870
+Training time: 1.85 minutes
+Training epochs: 5
+Best validation accuracy: 0.8882
+Best validation loss: 0.3152
+
+Per-class accuracies:
+  T-shirt/top: 0.8730
+  Trouser: 0.9730
+  Pullover: 0.8610
+  Dress: 0.8950
+  Coat: 0.8020
+  Sandal: 0.9360
+  Shirt: 0.6320
+  Sneaker: 0.9690
+  Bag: 0.9810
+  Ankle boot: 0.9480
+----------------------------------------
+
+Model: ResNet50
+Trainable layers: 0
+Trainable parameters: 20,490
+Test accuracy: 0.8425
+Training time: 2.35 minutes
+Training epochs: 5
+Best validation accuracy: 0.8502
+Best validation loss: 0.4233
+
+Per-class accuracies:
+  T-shirt/top: 0.8490
+  Trouser: 0.9610
+  Pullover: 0.7720
+  Dress: 0.8270
+  Coat: 0.8450
+  Sandal: 0.9340
+  Shirt: 0.4280
+  Sneaker: 0.8780
+  Bag: 0.9690
+  Ankle boot: 0.9620
+----------------------------------------
+
+Model: ResNet50
+Trainable layers: 5
+Trainable parameters: 1,073,162
+Test accuracy: 0.8656
+Training time: 2.39 minutes
+Training epochs: 5
+Best validation accuracy: 0.8654
+Best validation loss: 0.3749
+
+Per-class accuracies:
+  T-shirt/top: 0.8180
+  Trouser: 0.9660
+  Pullover: 0.7620
+  Dress: 0.8470
+  Coat: 0.8360
+  Sandal: 0.9770
+  Shirt: 0.6530
+  Sneaker: 0.9000
+  Bag: 0.9630
+  Ankle boot: 0.9340
+----------------------------------------
+
+>>>>>>> acd9337d8bd477491aefc67160ef137feb83c2a2
